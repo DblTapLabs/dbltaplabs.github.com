@@ -31,7 +31,7 @@ $(document).ready(function() {
         var tl = $("#tweet-list");
         $.each(tweetdata,
         function(i, tweet) {
-            tl.append("<li>&ldquo;" + urlToLink(tweet.text) + "&rdquo;&ndash; " + relTime(tweet.created_at) + "</li>");
+            tl.append("<li>&ldquo;" + urlToLink(tweet.text) + "&rdquo;</li>");
         });
     });
 
@@ -56,7 +56,7 @@ $(document).ready(function() {
         var tl = $("#tweet-list2");
         $.each(tweetdata,
         function(i, tweet) {
-            tl.append("<li>&ldquo;" + urlToLink(tweet.text) + "&rdquo;&ndash; " + relTime(tweet.created_at) + "</li>");
+            tl.append("<li>&ldquo;" + urlToLink(tweet.text) + "&rdquo;</li>");
         });
     });
 

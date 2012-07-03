@@ -38,12 +38,14 @@ var o = {
 			var t = $(this), 
 				color = t.find('.color').val(),
 				value = t.find('.percent').val(),
-				text = t.find('.text').text();
+				text = t.find('.text').text(),
+				linked = t.find('.linked').val();
 			
 			rad += 20;	
 			var z = r.path().attr({ arc: [value, color, rad], 'stroke-width': 18 });
 			
 			z.mouseover(function(){
+				console.log(this);
                 this.animate({ 'stroke-width': 30, opacity: .75 }, 1000, 'elastic');
                 if(Raphael.type != 'VML'); 
 				title.stop().animate({ opacity: 0 }, speed, '>', function(){
@@ -52,6 +54,21 @@ var o = {
 				
             }).mouseout(function(){
 				this.stop().animate({ 'stroke-width': 18, opacity: 1 }, speed, 'elastic');
+				title.stop().animate({ opacity: 0 }, speed, '>', function(){
+					title.attr({ text: defaultText }).animate({ opacity: 1 }, speed, '<');
+				});	
+            });
+			
+			$('#'+linked).mouseover(function(){
+				console.log(z);
+                z.animate({ 'stroke-width': 30, opacity: .75 }, 1000, 'elastic');
+                if(Raphael.type != 'VML'); 
+				title.stop().animate({ opacity: 0 }, speed, '>', function(){
+					title.attr({ text: text + '\n' + value + '%' }).animate({ opacity: 1 }, speed, '<');
+				});
+				
+            }).mouseout(function(){
+				z.stop().animate({ 'stroke-width': 18, opacity: 1 }, speed, 'elastic');
 				title.stop().animate({ opacity: 0 }, speed, '>', function(){
 					title.attr({ text: defaultText }).animate({ opacity: 1 }, speed, '<');
 				});	

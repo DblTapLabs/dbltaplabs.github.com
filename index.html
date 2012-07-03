@@ -269,11 +269,11 @@ $(document).ready(function() {
                 <p>
                      We are truly polygots with a wide array of interests and specialties.  We believe in being active and giving back to the open source community.  We love and have devoted most of our time to:
                 </p>
-                <ul>
-                    <li>CodeIgniter and Laravel - both are PHP frameworks</li>
-                    <li>PhoneGap - mobile development framework</li>
-                    <li>Express - development framework for Node.js</li>
-                    <li>Rails - the most widely used framework for Ruby</li>
+                <ul id="arc-legend">
+                    <li><span style="color:#FE642E;" id="codeigniter">CodeIgniter</span> and <span style="color:#81F781;" id="laravel">Laravel</span> - both are PHP frameworks</li>
+                    <li><span style="color:#DA81F5;" id="phonegap">PhoneGap</span> - mobile development framework</li>
+                    <li><span style="color:#58ACFA;" id="express">Express</span> - development framework for Node.js</li>
+                    <li><span style="color:#FE2E2E;" id="rails">Rails</span> - the most widely used framework for Ruby</li>
                 </ul>
             </div>
             <!-- skills two begin here -->
@@ -284,31 +284,36 @@ $(document).ready(function() {
                     <span class="text">Rails 
                         (Ruby)</span>
                     <input type="hidden" class="percent" value="50" />
-                    <input type="hidden" class="color" value="#fe5837" />
+                    <input type="hidden" class="color" value="#FE2E2E" />
+                    <input type="hidden" class="linked" value="rails" />
                 </div>
                 <div class="arc">
                     <span class="text">Express 
                         (JS)</span>
                     <input type="hidden" class="percent" value="55" />
-                    <input type="hidden" class="color" value="#ca391d" />
+                    <input type="hidden" class="color" value="#58ACFA" />
+                    <input type="hidden" class="linked" value="express" />
                 </div>
                 <div class="arc">
                     <span class="text">Laravel 
                         (PHP)</span>
                     <input type="hidden" class="percent" value="75" />
-                    <input type="hidden" class="color" value="#b93319" />
+                    <input type="hidden" class="color" value="#81F781" />
+                    <input type="hidden" class="linked" value="laravel" />
                 </div>
                 <div class="arc">
                     <span class="text">PhoneGap 
                         (Mobile,HTML5)</span>
                     <input type="hidden" class="percent" value="90" />
-                    <input type="hidden" class="color" value="#fe5837" />
+                    <input type="hidden" class="color" value="#DA81F5" />
+                    <input type="hidden" class="linked" value="phonegap" />
                 </div>
                 <div class="arc">
                     <span class="text">CodeIgniter 
                         (PHP)</span>
                     <input type="hidden" class="percent" value="99" />
-                    <input type="hidden" class="color" value="#a12810" />
+                    <input type="hidden" class="color" value="#FE642E" />
+                    <input type="hidden" class="linked" value="codeigniter" />
                 </div>
             </div>
             <div class="divider"></div>
@@ -370,7 +375,7 @@ $(document).ready(function() {
                     We develop partnerships instead of simply working by the hour/project.  This enables us to be an extension of your current team, giving you additional resources when you need them.  We sell our services in buckets of time per week.  The average minimum is five hours but this can change based on our current project load.  We would be more than happy to speak with you about your needs to determine if we would be a good fit for you, and if you would be a good fit for us.  See our Contact section below for the best ways to reach us.
                 </p>
             </div>
-            
+
             <div class="divider"></div>
 
         </div>
