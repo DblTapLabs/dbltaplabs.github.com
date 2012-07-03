@@ -45,7 +45,6 @@ var o = {
 			var z = r.path().attr({ arc: [value, color, rad], 'stroke-width': 18 });
 			
 			z.mouseover(function(){
-				console.log(this);
                 this.animate({ 'stroke-width': 30, opacity: .75 }, 1000, 'elastic');
                 if(Raphael.type != 'VML'); 
 				title.stop().animate({ opacity: 0 }, speed, '>', function(){
@@ -60,7 +59,6 @@ var o = {
             });
 			
 			$('#'+linked).mouseover(function(){
-				console.log(z);
                 z.animate({ 'stroke-width': 30, opacity: .75 }, 1000, 'elastic');
                 if(Raphael.type != 'VML'); 
 				title.stop().animate({ opacity: 0 }, speed, '>', function(){
