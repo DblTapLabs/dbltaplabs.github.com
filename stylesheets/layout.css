@@ -89,7 +89,7 @@ section{ width:100%; min-height:500px; margin:0 auto; padding:0; position:relati
 
 /***** Slogan *****/
 
-.top-title{ text-align:left; padding:150px 0 60px 0;}
+.top-title{ text-align:left; padding:160px 0 50px 0;}
 .top-title h1{ color:#ffffff;text-shadow:2px 2px 0 #b9b9ba, 4px 4px 0 #153134;font-family: 'Oswald', sans-serif; font-size:105px; line-height:120px; font-weight:400; padding:10px 0 0 0; margin:0;}
 .top-title span.plain, .top-title div.plain{ color:#ffffff;text-shadow:2px 2px 0 #b9b9ba, 4px 4px 0 #153134;font-family: 'Oswald', sans-serif; font-style:normal; font-size:115px; line-height:120px; font-weight:400; padding:20px 0 0 19px; margin:0;}
 .top-title h1 span.cursive, .top-title h1 div.cursive{font-family: 'Lobster Two', cursive; font-weight:400; font-size:160px; vertical-align:-15px; font-style:italic; color:#153134;text-shadow:1px 1px 0 #ffffff, 3px 3px 0 #a9a9a8; padding: 0px 0 0px 0;}
@@ -308,7 +308,7 @@ ul.arrow li{padding: 0 0 1px 14px;background: url(../images/arrow.png) no-repeat
 }
 
 .tagline {
-	padding: 30px 0 0 0;
+	padding: 20px 0 0 0;
 }
 
 #about .info p {
