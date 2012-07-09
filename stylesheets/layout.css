@@ -431,7 +431,7 @@ div.contact-icons ul {
 			padding: 10px 0 0 0px;
 		}
 
-		.logo .cursive .fix-me { margin-left:0px; }
+		.top-title h1 span.cursive, .top-title h1 div.cursive .fix-me { margin-left:-22px; }
 
 		#intro-zombie-img {
 			background: url('../images/zombie-head.png');
