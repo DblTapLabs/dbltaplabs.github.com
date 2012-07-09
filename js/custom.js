@@ -103,7 +103,7 @@ $(document).ready(function() {
 
     $('.main-navigation a').smoothScroll({
         speed: 1500,
-        offset: -80,
+        offset: -30,
         easing: 'easeOutExpo',
         exclude: ['#portfolio-filter li a,#gallery-filter li a,#about']
 
