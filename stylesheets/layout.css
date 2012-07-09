@@ -309,7 +309,6 @@ ul.arrow li{padding: 0 0 1px 14px;background: url(../images/arrow.png) no-repeat
 #intro-zombie {
 	text-align:left;
 }
-
 .tagline {
 	padding: 20px 0 0 0;
 }
@@ -356,10 +355,8 @@ div.contact-icons ul {
 
 
 
-/*  #Mobile (Portrait)
+/*  #Mobile
 ================================================== */
-
-    /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
         .logo { display:none; }
