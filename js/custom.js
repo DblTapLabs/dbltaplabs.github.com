@@ -76,7 +76,7 @@ $(document).ready(function() {
 
         $('#google_map').gmap3({
             action: 'addMarker',
-            address: "11th St and Broadway Columbus, GA",
+            address: "Phenix City, AL. 36869",
             map: {
                 center: true,
                 zoom: 10
@@ -88,7 +88,7 @@ $(document).ready(function() {
             },
             infowindow: {
                 options: {
-                    content: 'DblTap Labs!<br />11th St and Broadway in Columbus, GA'
+                    content: 'We\'re headquartered in a small Alabama town with<br />developers spread across the US.'
                 },
                 events: {
                     closeclick: function() {

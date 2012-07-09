@@ -137,13 +137,15 @@ ul.socicon li a.twitter { background: url(../images/social/twitter.png) 0 0 no-r
 ul.socicon li a.linkedin { background: url(../images/social/linkedin.png) 0 0 no-repeat;}
 ul.socicon li a.vimeo{ background: url(../images/social/vimeo.png) 0 0 no-repeat;}
 
-ul.socicon-big {margin:0 auto; width:200px; text-align:center; }
-ul.socicon-big li{ display:block; padding:0; margin:0 20px 0 0; float:left;}
-ul.socicon-big li a{ width:72px; height:72px; display:block; padding:0; margin:0; border-top:none;}
+ul.socicon-big { text-align:left; margin-left:80px; }
+ul.socicon-big li { padding:0; margin:20px 0 0 0; color:#FFF; font-size:24px; }
+ul.socicon-big li a { color:#FFF; padding:0; margin:0; color:#FFF; font-size:28px; }
+ul.socicon-big li span.link{ display:block; float:left; width:328px; margin: 10px 0 0 0; }
 ul.socicon-big li a.dribbble { background: url(../images/social/dribbble-big.png) 0 0 no-repeat;}
-ul.socicon-big li a.email { background: url(../images/social/email-big.png) 0 0 no-repeat;}
+ul.socicon-big li a.email { color:#FFF; width:72px; height:72px; display:block; padding:14px 20px 0 0; color:#FFF; font-size:28px; margin:0; border-top:none; float:left; background: url(../images/social/email-big.png) 0 0 no-repeat;}
+ul.socicon-big li span.phone { color:#FFF; width:72px; height:72px; display:block; padding:14px 20px 0 0; margin:0; border-top:none; float:left; background: url(../images/social/phone-big.png) 0 0 no-repeat;}
 ul.socicon-big li a.facebook { background: url(../images/social/facebook-big.png) 0 0 no-repeat;}
-ul.socicon-big li a.twitter { background: url(../images/social/twitter-big.png) 0 0 no-repeat;}
+ul.socicon-big li a.twitter { color:#FFF; width:72px; height:72px; display:block; padding:14px 20px 0 0; color:#FFF; font-size:28px; margin:0; border-top:none; float:left; background: url(../images/social/twitter-big.png) 0 0 no-repeat;}
 ul.socicon-big li a.linkedin { background: url(../images/social/linkedin-big.png) 0 0 no-repeat;}
 ul.socicon-big li a.vimeo{ background: url(../images/social/vimeo-big.png) 0 0 no-repeat;}
 ul.socicon-big li a.digg { background: url(../images/social/digg-big.png) 0 0 no-repeat;}
@@ -225,7 +227,7 @@ ul.blog li .readmore{ font-size:15px; margin:10px 0 0 0;color:#fff;}
 
 /***** Contact Form *****/
 
-#google_map{height: 400px;width: 420px;margin:20px;}
+#google_map{height: 400px;width: 360px;margin:20px;}
 .style-form{ padding:0 0 0 0;}
 .style-form h1{ padding:0 0 15px 0; font-weight:400;}
 #style-form{ margin:0; padding:0; position:relative;}	
@@ -336,4 +338,8 @@ div.contact-icons ul {
 #arc-legend li span:hover {
 	text-decoration:underline;
 	cursor: pointer;
+}
+
+#contact h1 {
+	padding:1px 0 0 0;
 }
