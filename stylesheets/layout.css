@@ -360,13 +360,14 @@ div.contact-icons ul {
         .logo { display:none; }
         #main-navigation_container { 
         	text-align:center; 
-        	width:90%;
+        	width:100%;
         }
         .main-navigation { 
         	margin: 0 auto;  
         	padding: 10px 0 0 0;
         	float:none;
         }
+        .main-navigation li { margin:0; padding:0 7px 0 7px;  }
         .main-navigation li a { font-size:16px;  }
 
         .container { margin:0; }
