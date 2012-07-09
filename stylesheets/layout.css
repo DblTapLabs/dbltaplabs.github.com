@@ -92,8 +92,31 @@ section{ width:100%; min-height:500px; margin:0 auto; padding:0; position:relati
 
 .top-title{ text-align:left; padding:140px 0 50px 0;}
 .top-title h1{ color:#ffffff;text-shadow:2px 2px 0 #b9b9ba, 4px 4px 0 #153134;font-family: 'Oswald', sans-serif; font-size:105px; line-height:120px; font-weight:400; padding:10px 0 0 0; margin:0;}
-.top-title span.plain, .top-title div.plain{ color:#ffffff;text-shadow:2px 2px 0 #b9b9ba, 4px 4px 0 #153134;font-family: 'Oswald', sans-serif; font-style:normal; font-size:115px; line-height:120px; font-weight:400; padding:20px 0 0 19px; margin:0;}
-.top-title h1 span.cursive, .top-title h1 div.cursive{font-family: 'Lobster Two', cursive; font-weight:400; font-size:160px; vertical-align:-15px; font-style:italic; color:#153134;text-shadow:1px 1px 0 #ffffff, 3px 3px 0 #a9a9a8; padding: 0px 0 0px 0;}
+.top-title span.plain, .top-title div.plain{ 
+	color:#ffffff; 
+	color:#153134\9; 
+	text-shadow:2px 2px 0 #b9b9ba, 4px 4px 0 #153134;
+	font-family: 'Oswald', sans-serif; 
+	font-style:normal; 
+	font-size:115px; 
+	line-height:120px; 
+	font-weight:400; 
+	padding:20px 0 0 19px;
+	*padding:20px 0 0 40px; 
+	margin:0;
+}
+.top-title h1 span.cursive, .top-title h1 div.cursive{
+	font-family: 'Lobster Two', cursive; 
+	font-weight:400; 
+	font-size:160px; 
+	vertical-align:-15px; 
+	font-style:italic; 
+	color:#153134;
+	text-shadow:1px 1px 0 #ffffff, 3px 3px 0 #a9a9a8; 
+	padding: 0px 0 0px 0;
+	*padding-bottom: 10px;
+	*line-height:160px;
+}
 .top-title h1 span.cursive, .top-title h1 div.cursive .fix-me { margin-left:-34px; }
 @-moz-document url-prefix() {
     .top-title h1 span.cursive, .top-title h1 div.cursive .fix-me { margin-left:-8px; }
@@ -129,7 +152,8 @@ section{ width:100%; min-height:500px; margin:0 auto; padding:0; position:relati
 
 /***** Social link*****/
 
-.tweets{ width:885px;height:70px; padding:0 0 0 55px; background:url(../images/tweets.png) 0 0 no-repeat; overflow:hidden;color:#ffffff;text-shadow:1px 1px 0 #153134, 1px 1px 0 #a9a9a8;font-family: 'Oswald', sans-serif; font-weight:400;}
+.tweets{ display/*\**/: none\9; width:885px;height:70px; padding:0 0 0 55px; background:url(../images/tweets.png) 0 0 no-repeat; overflow:hidden;color:#ffffff;text-shadow:1px 1px 0 #153134, 1px 1px 0 #a9a9a8;font-family: 'Oswald', sans-serif; font-weight:400;}
+
 .tweets ul li,.tweets p {font-size:18px; line-height:24px;}
 .tweets ul li a{font-style:italic; font-weight:bold;font-size:18px;color:#ffffff; }
 
@@ -311,6 +335,9 @@ ul.arrow li{padding: 0 0 1px 14px;background: url(../images/arrow.png) no-repeat
 }
 .tagline {
 	padding: 20px 0 0 0;
+	*padding:20px 0 20px 0;
+	*line-height:30px;
+	*height:50px;
 }
 
 #about .info p {
