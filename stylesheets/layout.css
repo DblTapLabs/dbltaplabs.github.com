@@ -459,6 +459,7 @@ div.contact-icons ul {
 			line-height: 70px;
 			font-weight: 400;
 			padding: 10px 0 0 0px;
+			text-align:center;
 		}
 
 		.top-title h1 span.cursive, .top-title h1 div.cursive .fix-me { margin-left:-22px; }
